@@ -1,0 +1,34 @@
+if there is no main() function 
+
+error 
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+
+if instead of main we writre main1()  same error 
+
+
+in single cpp file , whic h we are goi9nfg t ocompile , ther eshould be exactly one main() function
+
+we can also define diffrent main1 , main2 etc function , but we should have ,main() in file 
+
+
+even iostream nahi bhi hoga toh cha;lega , 
+
+
+because iostream is for in put out 
+
+
+
+let we want to add 2 number and save them in a file , then , no need of input and output , we need to include header files , containg file operation 
+
+
+
+overall , there should be a main function , it can be empty , no issue 
+
+
+
+how to compile and execute cpp file
+ g++ first_1.cpp -o execfile  ====> compile cpp code , and give execfile a executable file 
+ ./execfile    ===> run executable file 

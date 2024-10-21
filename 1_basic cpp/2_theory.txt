@@ -1,0 +1,19 @@
+
+we are including iostream header file for input and output from terminal 
+
+
+
+
+int main is there 
+
+
+
+std::cout is a standard function , to give some output 
+
+std::cin is a function to take input from terminal 
+
+
+
+
+
+if we dont want to write std , everytime , we can specify using namespace std intop of file 
